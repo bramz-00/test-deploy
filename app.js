@@ -5,8 +5,10 @@ const app = express()
 
 app.get('/',(req,res)=>{
    res.json({
-    message:'Yes'
-   })
+    lname:'Braham',
+    fname:'Zakaria',
+    birth:'15-07-2000',
+    job:'Software Engineer',   })
 })
 
 
