@@ -6,8 +6,9 @@ const app = express()
 
 
 app.use(cors())
+app.use(express.json())
 
-app.get('/',(req,res)=>{
+app.get('/test',(req,res)=>{
     const data= { lname:'Braham',
     fname:'Zakaria',
     birth:'15-07-2000',
