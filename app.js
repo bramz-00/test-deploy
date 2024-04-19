@@ -1,14 +1,22 @@
 const express =require('express')
+const cors =require('cors')
 
 
 const app = express()
 
+
+app.use(cors())
+
 app.get('/',(req,res)=>{
-   res.json({
-    lname:'Braham',
+    const data= { lname:'Braham',
     fname:'Zakaria',
     birth:'15-07-2000',
-    job:'Software Engineer',   })
+    job:'Software Engineer',}
+   res.json({
+   
+data:data
+
+})
 })
 
 
