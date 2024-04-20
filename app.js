@@ -11,6 +11,7 @@ app.use(cors())
 app.use(express.json())
 const uri ='mongodb+srv://brahamzakaria:DACGJqmR9jBv9ci6@cluster0.cjaw6h3.mongodb.net/test' || process.env.MONGOURI;
 
+
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -27,7 +28,8 @@ app.use(movieRoute)
 app.get('/tesxt',(req,res)=>{
     
    res.json(
-   
+
+
 data
 
 )
