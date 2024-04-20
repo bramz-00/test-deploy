@@ -34,11 +34,7 @@ app.get('/test',(req,res)=>{
           "Runtime": "101 min",
           "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
         },
-        {
-          "Title": "The Notebook",
-          "Year": "2004",
-          "Runtime": "123 min"
-        }
+    
       ]
    res.json({
    
